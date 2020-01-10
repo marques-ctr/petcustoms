@@ -24,7 +24,7 @@ use LOJA\Model\Cliente;
                         $_SESSION['clienteemail'] = $result['email'];
                         $_SESSION['clientenome'] = $result['nome'];
 
-                        header("location: http://localhost/loja-petcustoms/www/painel/cliente/");
+                        header("location: http://localhost/petcustoms/www/home/");
                     }else{
                         $this->msg = "Cliente/Senha inválidos";
                     }

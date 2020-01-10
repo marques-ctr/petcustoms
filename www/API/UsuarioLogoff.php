@@ -9,7 +9,7 @@
             unset($_SESSION['usuarioid']);
             unset($_SESSION['usuarionome']);
             unset($_SESSION);
-            header("location: http://localhost/loja-petcustoms/www/login/admin/");
+            header("location: http://localhost/petcustoms/www/login/admin/");
         }
     }
 

@@ -26,7 +26,7 @@ if($_POST){
             $_SESSION['usuarioid'] = $result['id'];
             $_SESSION['usuarionome'] = $result['nome'];
 
-            header('location: http://localhost/loja-petcustoms/www/painel/admin/');
+            header('location: http://localhost/petcustoms/www/painel/admin/');
         }else{
             $this->msg = "Usuario/Senha Inválidos";
         }
