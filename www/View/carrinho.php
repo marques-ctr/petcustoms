@@ -104,7 +104,7 @@
 				<?php
                             if(isset($_POST['cep'])){
                                 echo "<p>Preço: R$ ".$frete->getValor()."</p>";
-                                echo "<p>Entrega: R$ " .$frete->getPrazoEntrega(). "  dias</p>";
+                                echo "<p>Entrega: " .$frete->getPrazoEntrega(). "  dias</p>";
 
                             }
 

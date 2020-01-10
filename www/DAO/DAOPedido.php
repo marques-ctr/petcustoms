@@ -7,6 +7,7 @@ use LOJA\Model\Item;
 use LOJA\Model\Carrinho;
 
 class DAOPedido{
+
     public function cadastrar(Pedido $pedido, Carrinho $carrinho){
         $pdo = Conexao::getInstance();
         $pdo->beginTransaction();
@@ -43,4 +44,28 @@ class DAOPedido{
             return "Erro ao efetuar o pedido";
         }    
     }
+
+    public function listarPedidoCliente($idCliente){
+      
+        $sql = "SELECT
+        
+        pedido.data_pedido,
+        SUM(produto.preco*item.quantidade) as total
+      
+        FROM pedido INNER JOIN cliente
+        on pedido.fk_cliente = cliente.pk_cliente
+  
+        INNER JOIN item
+        on item.fk_pedido = pedido.pk_pedido
+  
+        INNER JOIN produto
+        on produto.pk_produto = item.fk_produto
+  
+        WHERE cliente.pk_cliente = :id";
+  
+        $con = Conexao::getInstance()->prepare($sql);
+        $con->bindValue(":id", $idCliente);
+        $result = $con->execute();
+      }
+  }
 }
