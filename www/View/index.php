@@ -224,6 +224,8 @@
 									<img src="../Img/blusa cat.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
+								<h4>Canon DSLR</h4>
+									<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
 									<div class="star-rating">
 										<ul class="list-inline">
 											<li class="list-inline-item"><i class="fa fa-star"></i></li>
