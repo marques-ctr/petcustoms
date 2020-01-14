@@ -37,7 +37,7 @@
                 <div class="card mt-2">
                 <img class="w-100 mt-2 mb-3 foto-produto" src="<?php echo $url;['imagem']?>/View/img/produtos/<?php echo $produto['imagem'] ?>" />
                     <div class="card-body">
-                    <h4 class="card-title font-weight-bold nome-produto text-center"><a href="<?php echo $url; ?>/item/<?php echo $produto['id'] ?>"><?php echo $produto['nome'] ?></h4>
+                    <h4 class="card-title font-weight-bold nome-produto text-center"><a href="<?php echo $url; ?>/produto/item/<?php echo $produto['id'] ?>"><?php echo $produto['nome'] ?></h4>
                     <h6 class="card-subtitle mb-2 text-muted text-center"><a href="#"><?php echo $produto['departamento'] ?></h6>
                     <div class="buy d-flex justify-content-between align-items-center">
                         <div class="price text-dark preco-produto"><h5 class="mt-4">R$ <?php echo  number_format($produto['preco'],2, ",",","); ?></h5></div>

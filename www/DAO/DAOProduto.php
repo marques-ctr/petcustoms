@@ -108,6 +108,5 @@ namespace LOJA\DAO;
                 $con->execute();
                 return "Excluído Todos com sucesso";
         }
-
         }
 ?>

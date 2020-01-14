@@ -35,6 +35,7 @@
             $departamento = $obj->dados;
             $view = "visualiza-departamento.php";
             break;
+            
 
 
         case 'clientecadastrar':
@@ -122,7 +123,8 @@
             $view = "index.php";
             break;      
 
-        case 'item':
+        case 'produtoitem':
+            $obj = new \LOJA\API\ProdutoListarHome;
             $view = "item.php";
             break;
 

@@ -30,7 +30,7 @@
 
             <div class="mb-3">
               <a href="">
-                <span class="badge purple mr-1">Categoria</span>
+                <span class="badge purple mr-1">Categoria: <?php echo $produto['departamento'] ?> </span>
               </a>
             </div>
 
@@ -38,7 +38,7 @@
               <span class="mr-1">
                 <del>$200</del>
               </span>
-              <span>$100</span>
+              <span>R$ <?php echo  number_format($produto['preco'],2, ",",","); ?></span>
             </p>
 
             <p class="lead font-weight-bold">Descrição</p>
