@@ -57,4 +57,13 @@ class Carrinho{
 	public function setLista($lista){
 		$this->lista = $lista;
 	}
+	
+	public function total(){
+		$total = 0;
+		foreach($this->lista as $item){
+			$total = $total + $item->getProduto()->getPreco() * 
+						$item->getQuantidade();
+		}
+		return $total;
+	}
 }

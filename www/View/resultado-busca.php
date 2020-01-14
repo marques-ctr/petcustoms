@@ -46,8 +46,8 @@
             <div class="row px-3">
                 
             <?php foreach($lista as $produto) { ?>
-
                
+                  
                   
             <?php } ?>
 

@@ -18,10 +18,9 @@
                 <div class="py-2 px-3 card-categoria mt-5">
                 <ul class="list-group" style=background-color: #6f42c1;>
 			<a class="list-group-item text-center font-weight-bold  info-painel"> <i class="fa fa-align-justify" aria-hidden="true"></i> &nbsp; Categorias</a>
-			<a class="list-group-item menu-cate text-decoration-none" href="#"> Cachorro &nbsp; <i class="fa fa-paw" aria-hidden="true"></i> </a>
-            <a class="list-group-item" href="#"> Gatos  </a>
-            <a class="list-group-item" href="#"> Roedores  </a>
-            <a class="list-group-item" href="#"> Para o Dono do PET  </a>
+			<a class="list-group-item menu-cate text-decoration-none text-center" href="#"> <i class="fa fa-paw" aria-hidden="true"></i> &nbsp; Cachorro </a>
+			<a class="list-group-item menu-cate text-decoration-none text-center" href="#"><i class="fa fa-cat" aria-hidden="true"></i>  &nbsp;   Gato </a>
+			<a class="list-group-item menu-cate text-decoration-none text-center" href="#">  <i class="fa fa-child" aria-hidden="true"></i> &nbsp; Dono do Pet </a>
 		</ul>
 
             </div>
@@ -48,8 +47,8 @@
                 <div class="card mt-2">
                 <img class="w-100 mt-2 mb-3 foto-produto" src="<?php echo $url;['imagem']?>/View/img/produtos/<?php echo $produto['imagem'] ?>" />
                     <div class="card-body">
-                    <h4 class="card-title font-weight-bold nome-produto"><a href="#"><?php echo $produto['nome'] ?></h4>
-                    <h6 class="card-subtitle mb-2 text-muted"><a href="#"><?php echo $produto['departamento'] ?></h6>
+                    <h4 class="card-title font-weight-bold nome-produto text-center"><a href="#"><?php echo $produto['nome'] ?></h4>
+                    <h6 class="card-subtitle mb-2 text-muted text-center"><a href="#"><?php echo $produto['departamento'] ?></h6>
                     <div class="buy d-flex justify-content-between align-items-center">
                         <div class="price text-dark"><h5 class="mt-4">R$ <?php echo  number_format($produto['preco'],2, ",",","); ?></h5></div>
                         <div>

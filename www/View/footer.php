@@ -12,7 +12,7 @@
             <li class="nav-item"> <a class="nav-link" href="#">Contato</a> </li>
 
           </ul> <i class="d-block fa fa-paw fa-3x mx-auto text-primary"></i>
-          <p class="mb-0 py-1">©2018 Pingendo All rights reserved</p>
+          <p class="mb-0 py-1">©2019-2020 Desenvolvido por Felippe e Caroline</p>
         </div>
       </div>
     </div>

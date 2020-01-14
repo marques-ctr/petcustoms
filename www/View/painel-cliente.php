@@ -19,7 +19,7 @@
 		<ul class="list-group" style=background-color: #6f42c1;>
 			<a class="list-group-item bg-warning info-painel font-weight-bold" href="#"> Painel do Cliente </a>
 			<a class="list-group-item"> 
-			<div class=""> "<?php echo $_SESSION['clientenome']; ?>" está logado. </div>
+			<div class="">"<?php echo $_SESSION['clientenome']; ?>" está logado. <span class="badge badge-success">Online</span>  </div>
 			<a class="list-group-item font-weight-bold" href="http://localhost/petcustoms/www/cliente/logoff">Sair  <i class="fa fa-sign-out-alt" aria-hidden="true"></i></a>  
 		</ul>
 	</aside> <!-- col.// -->
@@ -43,13 +43,15 @@
 		<article class=" mb-3">
 					<div class="card-body">
 						<table class="table table-hover">
+
 					<thead class="thead titulo-tabela">
 						<tr>
 						<th width="100">N° Pedido</th>
 						<th>Pedido</th>
-						<th width="155">Status do Pedido</th>
+						<th width="155">Data do Pedido</th>
 						</tr>
 					</thead>
+
 					<tbody>
 						<tr>
 						<th scope="row">1</th>
@@ -62,6 +64,7 @@
 						<td>Thornton</td>
 						</tr>
 					</tbody>
+
 				</table>
 				</div> <!-- card-body .// -->
 			</article> <!-- card.// -->
