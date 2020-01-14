@@ -1,6 +1,4 @@
 <?php include "view/header.php"?>
-
-
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 50px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -39,15 +37,6 @@
 		<div class="col-md-12">
 			<h2>Produtos em <b>Oferta</b></h2>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-
-            <!-- Carousel indicators -->
-            
-			<!-- <ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>   -->
-            
             <!-- carousel items -->
             
 			<div class="carousel-inner">
@@ -235,8 +224,6 @@
 									<img src="../Img/blusa cat.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
-									<h4>Apple iPhone</h4>
-									<p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
 									<div class="star-rating">
 										<ul class="list-inline">
 											<li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -330,7 +317,6 @@
 		</div>
 	</div>
 </div>
-
 
 
 
