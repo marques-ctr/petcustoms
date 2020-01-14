@@ -56,12 +56,7 @@
       <td><img width="50" src="<?php echo $url; ?>/View/img/produtos/<?php echo $produto->getImagem(); ?>" class="img-sm">
 	  <a href="#" class="title text-right ml-3 font-weight-bold" width="50"><?php echo $item->getProduto()->getNome(); ?></a></td>
       <td width="20">
-	  <select class="form-control">
-		<option>1</option>
-		<option>2</option>	
-		<option>3</option>	
-		<option>4</option>	
-    </select> 
+	  <input type="number" value="1" aria-label="Search" class="form-control" style="width: 70px">
 	  </td>
 	  <td width="50"><var class="price">R$ <?php echo $item->getProduto()->getPreco(); ?></var></td>
       <td width="30" class="text-right mt-1"><a href="<?php echo $url; ?>/carrinho/remover/<?php echo $item->getProduto()->getId(); ?>" class="btn btn-warning botao-carrinho"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
