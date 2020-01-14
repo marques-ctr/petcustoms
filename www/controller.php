@@ -165,6 +165,8 @@
             $view = "carrinho.php";
             break;
 
+        
+
         case 'logincliente':
             $view = "form-login-cliente.php";
             break; 

@@ -2,8 +2,8 @@
 
 <div class="jumbotron mt-5"> 
 
-<div class="container">
-<h4 class="display-4">Produto</h4>
+<div class="container mt-5">
+
 </div>
 </div>
 
@@ -30,13 +30,7 @@
 
             <div class="mb-3">
               <a href="">
-                <span class="badge purple mr-1">Category 2</span>
-              </a>
-              <a href="">
-                <span class="badge blue mr-1">New</span>
-              </a>
-              <a href="">
-                <span class="badge red mr-1">Bestseller</span>
+                <span class="badge purple mr-1">Categoria</span>
               </a>
             </div>
 
@@ -47,7 +41,7 @@
               <span>$100</span>
             </p>
 
-            <p class="lead font-weight-bold">Description</p>
+            <p class="lead font-weight-bold">Descrição</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor suscipit libero eos atque quia ipsa
               sint voluptatibus!
@@ -55,8 +49,7 @@
 
             <form class="d-flex justify-content-left">
               <!-- Default input -->
-              <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px">
-              <button class="btn btn-primary btn-md my-0 p" type="submit">Add to cart
+              <button class="btn btn-primary titulo-tabela btn-md my-0 p text-center" type="submit">Adicionar ao Carrinho
                 <i class="fas fa-shopping-cart ml-1"></i>
               </button>
 

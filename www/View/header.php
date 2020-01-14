@@ -27,9 +27,20 @@
         color: #ffc107!important;
         border-color: #6f42c1!important;
     }
+
+    .titulo-tabela:hover{
+        background-color: #ffc107!important;
+        color: #6f42c1!important;
+        border-color: #ffc107!important;
+    }
     
     .nome-produto{
         font-size: 15px;
+    }
+
+    .preco-produto{
+        color: #6f42c1!important;
+
     }
     
     .menu-cate:hover{
@@ -286,6 +297,6 @@ h2::after {
             </div>
             </div>
             </nav>  
-               
+
 <!--  Menu/Navbar -->
 
