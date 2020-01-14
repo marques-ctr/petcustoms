@@ -54,7 +54,7 @@
                             ?>
     <tr>
       <td><img width="50" src="<?php echo $url; ?>/View/img/produtos/<?php echo $produto->getImagem(); ?>" class="img-sm">
-	  <a href="#" class="title text-right ml-3 font-weight-bold" width="50"><?php echo $item->getProduto()->getNome(); ?></a></td>
+	  <a href="#" class="title text-right font-weight-bold" width="50"><?php echo $item->getProduto()->getNome(); ?></a></td>
       <td width="20">
 	  <input type="number" value="1" aria-label="Search" class="form-control" style="width: 70px">
 	  </td>
@@ -66,7 +66,7 @@
                             }
                         }
                     ?>
-  </tbody>
+  </tbody> 
 </table>
 
 
