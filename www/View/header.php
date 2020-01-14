@@ -177,7 +177,7 @@ h2::after {
     width: 40px;
     background: none;
     margin: auto 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: #6f42c1!important;
 }
 .carousel .carousel-control i {
     font-size: 30px;
@@ -261,6 +261,10 @@ h2::after {
 	right: 0;
 	bottom: -20px;
 }
+
+h4 {
+    color: #6f42c1!important;
+}
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
@@ -334,7 +338,7 @@ h2::after {
     z-index: 5;
     left: 0;
     right: 0;
-    color: rgba(0, 0, 0, 0.8);
+    color: white;
     text-shadow: none;
     font-weight: bold;
 }
